@@ -27,9 +27,7 @@ It demonstrates order handling, task execution, and robot movement services
 colcon build --symlink-install
 source install/setup.bash
 
-# Clone inside your workspace
-git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
-export TURTLEBOT3_MODEL=waffle
+# Install Turtlebot3 binaries
 
 ## 7. How to Run
 # Launch Restaurant + TurtleBot
